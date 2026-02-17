@@ -126,7 +126,10 @@ export default function Page() {
     <div className="max-w-2xl mx-auto mt-10 p-4">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">Your Bookmarks</h1>
-        <button onClick={handleLogout} className="text-sm text-red-500">
+        <button
+          onClick={handleLogout}
+          className="text-sm bg-blue-500 text-white px-3 py-1 rounded cursor-pointer hover:bg-blue-600 transition-colors"
+        >
           Logout
         </button>
       </div>
